@@ -13,7 +13,7 @@ A **SolarSense API** é uma aplicação para gerenciamento de sistemas de energi
    ```bash
    git clone https://github.com/DanielAraujoFaria/SolarSense-IA
    ```
-2. Ou acesse [Link do Projeto no Wokwi](https://wokwi.com/projects/414490927138079745)
+2. Ou acesse [Link do Projeto no Wokwi](https://wokwi.com/projects/415311717366535169)
 
 ---
 
@@ -222,7 +222,35 @@ void loop() {
     { "type": "led", "id": "ledOnboard", "top": 8, "left": -4.76, "attrs": { "color": "green" } },
     { "type": "led", "id": "ledExternal", "top": 60, "left": 50, "attrs": { "color": "red" } },
     { "type": "dht22", "id": "dht", "top": -60, "left": 80, "attrs": {} },
-    { "type": "wokwi-dht22", "id": "dht1", "top": -66.9, "left": -130.2, "attrs": {} }
-  ]
+    { "type": "wokwi-dht22", "id": "dht1", "top": -66.9, "left": -130.2, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 73.2,
+      "left": -188.2,
+      "attrs": { "color": "red", "flip": "" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:D34", "pot1:W", "analog", [ "PINO_TENSAO" ] ],
+    [ "esp:D2", "ledOnboard:anode", "digital", [ "boardLED" ] ],
+    [ "ledOnboard:cathode", "esp:GND", "ground", [] ],
+    [ "pot1:GND", "esp:GND", "ground", [] ],
+    [ "pot1:VCC", "esp:3V3", "power", [] ],
+    [ "esp:D25", "dht:SIG", "digital", [ "DHTPIN" ] ],
+    [ "dht:GND", "esp:GND", "ground", [] ],
+    [ "dht:VCC", "esp:3V3", "power", [] ],
+    [ "esp:D26", "ledExternal:anode", "digital", [ "LED_PIN" ] ],
+    [ "ledExternal:cathode", "esp:GND", "ground", [] ],
+    [ "pot1:GND", "esp:GND.2", "black", [ "v57.6", "h57.6" ] ],
+    [ "pot1:SIG", "esp:34", "white", [ "v28.8", "h-106.15" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "led1:A", "esp:26", "green", [ "v0" ] ],
+    [ "led1:C", "esp:GND.3", "cyan", [ "v211.2", "h259.6", "v-163.2" ] ]
+  ],
+  "dependencies": {}
 }
 ```
