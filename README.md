@@ -2,7 +2,25 @@
 
 ## 📋 **Descrição do Projeto**
 
-A **SolarSense API** é uma aplicação para gerenciamento de sistemas de energia solar, oferecendo funcionalidades como cadastro de usuários, painéis solares, sensores e leitura de dados para monitoramento e otimização do desempenho. A solução foi desenvolvida para integrar sensores e dispositivos, como o DHT22 e potenciômetro, com o objetivo de monitorar a temperatura, umidade, tensão solar, potência e energia gerada.
+O **SolarSense** é uma solução que visa oferecer monitoramento em tempo real do desempenho de painéis solares, permitindo que usuários maximizem a eficiência energética e reduzam custos. A plataforma utiliza tecnologia para identificar problemas de funcionamento, otimizar a geração de energia e proporcionar dados precisos sobre o funcionamento dos painéis solares cadastrados pelos usuários.
+Com aplicações em residências, empresas, agricultura e grandes instalações solares, o SolarSense promove economia, sustentabilidade e transparência, atendendo às crescentes demandas por energia renovável no mercado global.
+
+SOLUÇÃO PROPOSTA E BENEFÍCIOS PARA O NEGÓCIO
+O SolarSense combina tecnologia e praticidade para atender às necessidades de monitoramento e otimização de sistemas de painéis solares. A seguir, estão destacados os principais recursos e benefícios que tornam a solução indispensável para consumidores e empresas de grande porte:
+
+1.	Monitoramento em Tempo Real: Dados atualizados sobre desempenho e eficiência dos painéis solares.
+
+2.	Identificação Proativa de Problemas: Ajuda na manutenção preventiva, evitando prejuízos por falhas.
+
+3.	Otimização de Recursos: Permite ajustes no consumo com base na geração de energia, reduzindo custos operacionais.
+
+4.	Relatórios e Transparência: Facilita a prestação de contas para stakeholders e promove práticas de responsabilidade ambiental.
+Benefícios que buscamos alcançar para o Negócio:
+•	Redução de custos operacionais para empresas que gerenciam grandes instalações solares
+•	Aumento da competitividade ao agregar valor a empresas do setor solar.
+•	Redução de custos e maior retorno sobre investimento para consumidores.
+•	Contribuição direta para iniciativas de sustentabilidade e práticas ESG.
+
 
 ---
 
@@ -13,6 +31,8 @@ A **SolarSense API** é uma aplicação para gerenciamento de sistemas de energi
    ```bash
    git clone https://github.com/DanielAraujoFaria/SolarSense-IA
    ```
+   Depois, na pasta src faça build do main.cpp e então abre o arquivo diagram.json e rode o projeto
+   
 2. Ou acesse [Link do Projeto no Wokwi](https://wokwi.com/projects/415311717366535169)
 
 ---
