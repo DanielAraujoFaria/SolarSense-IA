@@ -5,7 +5,7 @@
 O **SolarSense** é uma solução que visa oferecer monitoramento em tempo real do desempenho de painéis solares, permitindo que usuários maximizem a eficiência energética e reduzam custos. A plataforma utiliza tecnologia para identificar problemas de funcionamento, otimizar a geração de energia e proporcionar dados precisos sobre o funcionamento dos painéis solares cadastrados pelos usuários.
 Com aplicações em residências, empresas, agricultura e grandes instalações solares, o SolarSense promove economia, sustentabilidade e transparência, atendendo às crescentes demandas por energia renovável no mercado global.
 
-SOLUÇÃO PROPOSTA E BENEFÍCIOS PARA O NEGÓCIO
+### SOLUÇÃO PROPOSTA E BENEFÍCIOS PARA O NEGÓCIO
 O SolarSense combina tecnologia e praticidade para atender às necessidades de monitoramento e otimização de sistemas de painéis solares. A seguir, estão destacados os principais recursos e benefícios que tornam a solução indispensável para consumidores e empresas de grande porte:
 
 1.	Monitoramento em Tempo Real: Dados atualizados sobre desempenho e eficiência dos painéis solares.
